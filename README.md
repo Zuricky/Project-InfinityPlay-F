@@ -14,15 +14,13 @@
 * ❤️ **Wishlist** per i titoli preferiti
 * ⭐ **Recensioni** con valutazione e commenti
 
-Obiettivo: mostrare competenze in **React**, **Java Spring Boot** e **PostgreSQL**, con un’architettura pulita e professionale.
-
 ---
 
 ## 📦 Tecnologie Utilizzate
 
-| Front-end                            | Back-end                                            | Database      | API Docs                     |
-| ------------------------------------ | --------------------------------------------------- | ------------- | ---------------------------- |
-| React, React Router, Tailwind, Axios | Spring Boot, Spring Data JPA, Spring Security (JWT) | PostgreSQL 🐘 | Swagger/OpenAPI 📝 (Postman) |
+| Front-end                      | Back-end                                            | Database      | API Docs                     |
+| ------------------------------ | --------------------------------------------------- | ------------- | ---------------------------- |
+| React, React Router, Bootstrap | Spring Boot, Spring Data JPA, Spring Security (JWT) | PostgreSQL 🐘 | Swagger/OpenAPI 📝 (Postman)|
 
 ---
 
@@ -45,9 +43,10 @@ Segui questi passaggi per eseguire il progetto in locale:
 1. **Clona il repository**
 
    ```bash
-   git clone [https://github.com/tuo-username/infinityplay-capstone.git](https://github.com/Zuricky/Project-InfinityPlay)
+   git clone https://github.com/Zuricky/Project-InfinityPlay.git
    cd project-infinityplay
    ```
+
 2. **Configura le variabili d’ambiente**
    Crea un file `.env` nella cartella `backend`:
 
@@ -57,12 +56,14 @@ Segui questi passaggi per eseguire il progetto in locale:
    DB_PASS=password
    JWT_SECRET=secret
    ```
+
 3. **Avvia il Back-end**
 
    ```bash
    cd backend
    ./mvnw spring-boot:run
    ```
+
 4. **Avvia il Front-end**
 
    ```bash
@@ -70,6 +71,7 @@ Segui questi passaggi per eseguire il progetto in locale:
    npm install
    npm start
    ```
+
 5. **Visita l’app**
 
    * Front-end: `http://localhost:3000`
