@@ -45,17 +45,17 @@ Segui questi passaggi per eseguire il progetto in locale:
 1. **Clona il repository**
 
    ```bash
-   git clone https://github.com/tuo-username/infinityplay-capstone.git
-   cd infinityplay-capstone
+   git clone [https://github.com/tuo-username/infinityplay-capstone.git](https://github.com/Zuricky/Project-InfinityPlay)
+   cd project-infinityplay
    ```
 2. **Configura le variabili d’ambiente**
    Crea un file `.env` nella cartella `backend`:
 
    ```env
-   DB_URL=jdbc:postgresql://localhost:5432/videostore
-   DB_USER=tuo_user
-   DB_PASS=tuo_password
-   JWT_SECRET=segreto_super_forte
+   DB_URL=jdbc:postgresql://localhost:5432/project_infinityplay
+   DB_USER=user
+   DB_PASS=password
+   JWT_SECRET=secret
    ```
 3. **Avvia il Back-end**
 
