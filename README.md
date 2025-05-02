@@ -6,7 +6,7 @@
 
 ## 🔗 Link Back-End
 
-`[http://localhost:8080/swagger-ui.html](https://github.com/Zuricky/Project-InfinityPlay-B)`
+`https://github.com/Zuricky/Project-InfinityPlay-B`
 
 ---
 
