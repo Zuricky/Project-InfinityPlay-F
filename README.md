@@ -16,6 +16,7 @@
 
 * 🎮 **Catalogo dinamico** con filtri per genere e piattaforma
 * 🔐 **Autenticazione sicura** via JWT
+* 🗂️ **Dettaglio prodotto** (descrizione, prezzo, immagini)
 * 🛒 Gestione **Carrello & Checkout**
 * ❤️ **Wishlist** per i titoli preferiti
 * ⭐ **Recensioni** con valutazione e commenti
