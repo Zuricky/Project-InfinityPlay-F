@@ -6,7 +6,7 @@
 
 ## 🔗 Link Back-End
 
-[Repository Backend](https://github.com/Zuricky/Project-InfinityPlay-B)
+**[Repository Backend](https://github.com/Zuricky/Project-InfinityPlay-B)**
 
 ---
 
