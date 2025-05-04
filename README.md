@@ -16,8 +16,7 @@
 
 * 🎮 **Catalogo dinamico** con filtri per genere e piattaforma
 * 🔐 **Autenticazione sicura** via JWT
-* 🗂️ **Dettaglio prodotto** (descrizione, prezzo, immagini)
-* 🛒 Gestione **Carrello & Checkout**
+* 🛒 **Carrello & Checkout**
 * ❤️ **Wishlist** per i titoli preferiti
 * ⭐ **Recensioni** con valutazione e commenti
 
@@ -33,13 +32,13 @@
 
 ## 🛠️ Caratteristiche Principali
 
-1. **Autenticazione & Autorizzazione** 🔒
-2. **Catalogo giochi** con ricerche e filtri avanzati
-3. **Dettaglio prodotto** (descrizione, prezzo, immagini)
-4. **Gestione Carrello & Checkout** 💳
-5. **Storico Ordini** nel profilo utente
-6. **Wishlist** per salvare i preferiti ❤️
-7. **Recensioni Utenti** con stelle e commenti 🗣️
+* 🔒 **Autenticazione & Autorizzazione**
+* 📂 **Catalogo giochi** con ricerche e filtri avanzati
+* 📑 **Dettaglio prodotto** (descrizione, prezzo, immagini)
+* 💳 **Gestione Carrello & Checkout**
+* 💾 **Storico Ordini** nel profilo utente
+* ❤️ **Wishlist** per salvare i preferiti
+* 🗨️ **Recensioni Utenti** con stelle e commenti
 
 ---
 
