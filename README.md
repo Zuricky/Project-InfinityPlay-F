@@ -12,13 +12,8 @@
 
 ## 📖 Cos’è Project InfinityPlay?
 
-**Project InfinityPlay** è una piattaforma full‑stack per l’acquisto e la gestione di videogiochi:
-
-* 🎮 **Catalogo dinamico** con filtri per genere e piattaforma
-* 🔐 **Autenticazione sicura** via JWT
-* 🛒 **Carrello & Checkout**
-* ❤️ **Wishlist** per i titoli preferiti
-* ⭐ **Recensioni** con valutazione e commenti
+Project InfinityPlay è una piattaforma full‑stack per l’acquisto e la gestione di videogiochi, progettata per dimostrare competenze full stack con un’architettura pulita e professionale.
+Include funzionalità tipiche di uno store digitale e un'interfaccia moderna, responsive e sicura.
 
 ---
 
@@ -35,8 +30,8 @@
 * 🔒 **Autenticazione & Autorizzazione**
 * 📂 **Catalogo giochi** con ricerche e filtri avanzati
 * 📑 **Dettaglio prodotto** (descrizione, prezzo, immagini)
-* 💳 **Gestione Carrello & Checkout**
-* 💾 **Storico Ordini** nel profilo utente
+* 🛒 **Gestione Carrello & Checkout**
+* 💳 **Storico Ordini** nel profilo utente
 * ❤️ **Wishlist** per salvare i preferiti
 * 🗨️ **Recensioni Utenti** con stelle e commenti
 
