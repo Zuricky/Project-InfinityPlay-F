@@ -1,0 +1,21 @@
+@use "sass:map";
+
+$text: #f0f0f5;
+$background: #1c1627;
+$primary: #c53078;
+$secondary: #8f54a0;
+$accent: #7c1eae;
+
+$custom-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "accent": $accent,
+  "dark": $background,
+  "light": $text,
+);
+
+@use "bootstrap" with (
+  $body-color: $text,
+  $body-bg: $background,
+  $theme-colors: $custom-colors
+);
