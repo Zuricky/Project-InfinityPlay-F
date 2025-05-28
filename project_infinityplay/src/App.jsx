@@ -1,28 +1,47 @@
-import "./index.css";
-import "./App.css";
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "./assets/scss/main.scss";
-
-import NavBar from "./components/NavBar.jsx";
-import HomePage from "./components/HomePage.jsx";
-import Footer from "./components/Footer.jsx";
-import Backoffice from "./components/Backoffice.jsx";
-import Login from "./components/Login.jsx";
+// ——— Router ———
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// ——— Styles ———
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./assets/styles/css/index.css";
+import "./assets/styles/css/App.css";
+import "./assets/styles/scss/main.scss";
+
+// ——— Contexts ———
+import { AuthProvider } from "./contexts/AuthContext";
+
+// ——— Components ———
+import NavBar from "./components/Navbar.jsx";
+import Register from "./pages/auth/Register.jsx";
+import Login from "./pages/auth/Login.jsx";
+import Profile from "./pages/auth/Profile.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import Games from "./pages/games/Games.jsx";
+import GameDetail from "./pages/games/GameDetails.jsx";
+import Error404 from "./components/Error404.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
-    <BrowserRouter>
-      <NavBar />
+    <AuthProvider>
+      <BrowserRouter>
+        <NavBar />
 
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/backoffice" element={<Backoffice />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
+        <Routes>
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
 
-      <Footer />
-    </BrowserRouter>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/games" element={<Games />} />
+          <Route path="/games/:id" element={<GameDetail />} />
+
+          <Route path="*" element={<Error404 />} />
+        </Routes>
+
+        <Footer />
+      </BrowserRouter>
+    </AuthProvider>
   );
 }
 
