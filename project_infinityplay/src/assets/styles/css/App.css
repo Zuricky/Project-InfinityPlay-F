@@ -1,20 +1,4 @@
-body {
-  font-family: roboto, sans-serif;
-  background: #00061a;
-  background: radial-gradient(circle, rgba(0, 6, 26, 1) 80%, rgba(25, 0, 54, 1) 90%, rgba(56, 0, 53, 1) 100%);
-  margin-inline: 80px;
-  color: #f0f0f5;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Press Start 2P", cursive;
-}
-
+/* BACKGROUND */
 .bg-logo {
   position: relative;
   padding: 7rem;
@@ -33,11 +17,13 @@ h6 {
   pointer-events: none;
 }
 
+/* FORM */
 .form-check-input:checked {
   background-color: #c53078 !important;
   border-color: #c53078 !important;
 }
 
+/* PAGINATION */
 .pagination .page-link {
   color: #f0f0f5;
   background-color: #1c1627;
@@ -53,4 +39,18 @@ h6 {
   background-color: #c53078;
   color: #f0f0f5;
   border-color: #8f54a0;
+}
+
+/* DROPDOWN */
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #7c1eae !important;
+}
+
+.dropdown-item.active {
+  background-color: #c53078 !important;
+}
+
+.dropdown-item:active {
+  background-color: #c53078 !important;
 }

@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../contexts/AuthContext";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 
-function NavBar() {
+function CustomNavbar() {
   const { user, logout } = useContext(AuthContext);
 
   return (
     <Navbar expand="lg" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand as={Link} to="/" className="align-items-center">
+        <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
           <img src="./project_infinityplay/src/assets/img/infinityplay.png" alt="InfinityPlay" width={90} className="me-2" />
-          <img src="./project_infinityplay/src/assets/img/project_infinityplay.png" alt="Project InfinityPlay" width={250} />
+          <img src="./project_infinityplay/src/assets/img/project_infinityplay.png" alt="Project InfinityPlay" width={250} className="img-fluid" />
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="main-nav" />
@@ -22,9 +22,6 @@ function NavBar() {
             </Nav.Link>
             <Nav.Link as={Link} to="/games">
               Games
-            </Nav.Link>
-            <Nav.Link as={Link} to="/library">
-              Library
             </Nav.Link>
           </Nav>
 
@@ -54,4 +51,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default CustomNavbar;

@@ -11,7 +11,7 @@ import "./assets/styles/scss/main.scss";
 import { AuthProvider } from "./contexts/AuthContext";
 
 // ——— Components ———
-import NavBar from "./components/Navbar.jsx";
+import CustomNavbar from "./components/CustomNavbar.jsx";
 import Register from "./pages/auth/Register.jsx";
 import Login from "./pages/auth/Login.jsx";
 import Profile from "./pages/auth/Profile.jsx";
@@ -25,19 +25,21 @@ function App() {
   return (
     <AuthProvider>
       <BrowserRouter>
-        <NavBar />
+        <CustomNavbar />
 
-        <Routes>
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/profile" element={<Profile />} />
+        <main className="flex-shrink-0">
+          <Routes>
+            <Route path="/register" element={<Register />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/profile" element={<Profile />} />
 
-          <Route path="/" element={<HomePage />} />
-          <Route path="/games" element={<Games />} />
-          <Route path="/games/:id" element={<GameDetail />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/games" element={<Games />} />
+            <Route path="/games/:id" element={<GameDetail />} />
 
-          <Route path="*" element={<Error404 />} />
-        </Routes>
+            <Route path="*" element={<Error404 />} />
+          </Routes>
+        </main>
 
         <Footer />
       </BrowserRouter>

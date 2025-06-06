@@ -1,0 +1,16 @@
+body {
+  font-family: roboto, sans-serif;
+  background: #00061a;
+  background: radial-gradient(circle, rgba(0, 6, 26, 1) 80%, rgba(25, 0, 54, 1) 90%, rgba(56, 0, 53, 1) 100%);
+  margin-inline: 1rem;
+  color: #f0f0f5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Press Start 2P", cursive;
+}

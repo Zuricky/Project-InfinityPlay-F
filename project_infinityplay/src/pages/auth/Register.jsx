@@ -28,11 +28,11 @@ function SignIn() {
   return (
     <Container className="bg-logo mt-5">
       <Row className="justify-content-center">
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} lg={5}>
           <h2 className="mb-4 text-center">Sign In</h2>
           {error && <Alert variant="danger">{error}</Alert>}
           <Form onSubmit={handleSubmit}>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-3" controlId="registerEmail">
               <Form.Label>Email</Form.Label>
               <Form.Control
                 type="email"
@@ -43,7 +43,7 @@ function SignIn() {
                 className="border-secondary rounded-pill"
               />
             </Form.Group>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-3" controlId="registerUsername">
               <Form.Label>Username</Form.Label>
               <Form.Control
                 type="text"
@@ -54,7 +54,7 @@ function SignIn() {
                 className="border-secondary rounded-pill"
               />
             </Form.Group>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-3" controlId="registerPassword">
               <Form.Label>Password</Form.Label>
               <Form.Control
                 type="password"
